@@ -6,7 +6,8 @@ import { factories } from '@strapi/strapi'
 
 export default factories.createCoreController('api::game.game', ({ strapi }) => ({
   async populate(ctx) {
-    console.log('rodando no servidor')
-    ctx.send('finalizado no cliente')
+    console.log('starting to populate...')
+    await strapi.service('api::game.game').populate(ctx.query)
+    ctx.send('finished populating')
   }
 }));
