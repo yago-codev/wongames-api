@@ -33,6 +33,10 @@ export default {
           neutral0: "#0d102f",
           neutral100: "#030415",
         }
+      },
+      tutorials: false,
+      notifications: {
+        releases: false,
       }
     }
   },
