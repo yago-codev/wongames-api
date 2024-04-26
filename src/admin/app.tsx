@@ -15,6 +15,9 @@ export default {
         'Auth.form.welcome.title': 'Bem-vindo a Won Games',
         'Auth.form.welcome.subtitle': 'Faça login em sua conta',
         'app.components.LeftMenu.navbrand.title': 'Dashboard',
+        'app.components.HomePage.welcome': 'Bem-vindo 👋',
+        'app.components.HomePage.welcome.again': 'Bem-vindo 👋',
+        'app.components.HomePage.welcomeBlock.content.again': 'Use o painel ao lado para customizar e publicar seu conteúdo.'
       }
     },
     menu: {
